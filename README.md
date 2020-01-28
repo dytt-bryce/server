@@ -2,6 +2,8 @@
 
 [website](https://www.dytt.com/)
 
+[live api](http://guygubaby.top:5000/api/v1/movies)
+
 ## how to run
 clone the project and run the follow command 
 ```bash
