@@ -1,15 +1,24 @@
-# this is a golang spider project to crawl movies
+# welcome to my golang project to crawl movies 👋
 
-[website](https://www.dytt.com/)
+<p align="center">
+  <a href="https://github.com/dytt-bryce/server">
+    <img src="https://github.com/dytt-bryce/server/workflows/pack%20server/badge.svg" alt='pack server'>
+  </a>
+  <img alt="version" src="https://img.shields.io/badge/version-1.0.0-green.svg?cacheSeconds=2592000">
+</p>
 
-[live api](http://guygubaby.top:5000/api/v1/movies)
+* [live api](http://guygubaby.top:5000/api/v1/movies)
+* [电影淘淘](https://www.dytt.com/)
 
 ## how to run
+
 clone the project and run the follow command 
-```bash
+
+``` bash
 go run main.go
 ```
-then the server will listen port `5000`
+
+then the server will listen port `5000` 
 
 ## api
 
