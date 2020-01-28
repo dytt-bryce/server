@@ -1,4 +1,4 @@
-name: Go
+name: pack server
 on: [push]
 jobs:
 
