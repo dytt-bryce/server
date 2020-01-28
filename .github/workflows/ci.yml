@@ -25,6 +25,11 @@ jobs:
         fi
 
     - name: Build
+      env:
+        CGO_ENABLED: 0
+        GOOS: linux
+        GOARCH: amd64
+        
       run: go build -ldflags="-s -w" -installsuffix cgo -o dytt_server .
 
     - name: Login to dockerhub
